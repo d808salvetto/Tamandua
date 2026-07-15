@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servicios | Barbería Tamandúa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="bg-slate-950 text-slate-100">
+    <header
+      class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/90 backdrop-blur"
+    >
+      <div class="container flex items-center justify-between py-4">
+        <a
+          href="index.html"
+          class="text-lg font-semibold uppercase tracking-[0.3em] text-white"
+          data-config="empresa"
+          >Barbería Tamandúa</a
+        >
+        <nav
+          class="hidden items-center gap-6 text-sm font-medium text-slate-300 md:flex"
+        >
+          <a class="transition hover:text-white" href="index.html">Inicio</a>
+          <a class="transition hover:text-white" href="servicios.html"
+            >Servicios</a
+          >
+          <a class="transition hover:text-white" href="contacto.html"
+            >Contacto</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="mb-10 max-w-2xl">
+            <p class="section-kicker">Nuestros servicios</p>
+            <h1 class="section-title">
+              Cada servicio pensado para un estilo distinto.
+            </h1>
+            <p class="mt-4 text-lg leading-8 text-slate-400">
+              Elegí la experiencia que mejor se adapte a tu imagen y a tu
+              rutina.
+            </p>
+          </div>
+          <div id="services-list" class="grid gap-6 lg:grid-cols-2"></div>
+          <div class="mt-12 text-center">
+            <a
+              href="https://wa.me/59899123456?text=Hola%20quiero%20reservar"
+              class="btn-primary inline-flex items-center rounded-full px-6 py-3 text-sm font-semibold text-white transition"
+              >Reservá tu turno</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/10 bg-slate-950/90">
+      <div
+        class="container flex flex-col gap-6 py-10 text-sm text-slate-400 md:flex-row md:items-center md:justify-between"
+      >
+        <div>
+          <p class="font-semibold text-white" data-config="empresa">
+            Barbería Tamandúa
+          </p>
+          <p class="mt-2" data-config="direccion">
+            Av. 18 de Julio 1234, Montevideo, Uruguay
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a
+            class="transition hover:text-white"
+            href="https://wa.me/59899123456?text=Hola%20quiero%20reservar"
+            >WhatsApp</a
+          >
+          <a
+            class="transition hover:text-white"
+            href="https://www.instagram.com/barberiatamandua"
+            >Instagram</a
+          >
+          <a
+            class="transition hover:text-white"
+            href="tel:099123456"
+            data-config="telefono"
+            >099123456</a
+          >
+        </div>
+        <p>
+          © 2026 <span data-config="empresa">Barbería Tamandúa</span>. Todos los
+          derechos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/servicios.js"></script>
+  </body>
+</html>

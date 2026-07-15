@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "nombre": "Corte clásico",
+      "precio": "$350",
+      "descripcion": "Corte tradicional con tijera y máquina, incluye lavado."
+    },
+    {
+      "nombre": "Barba",
+      "precio": "$250",
+      "descripcion": "Perfilado, diseño y toalla caliente."
+    },
+    {
+      "nombre": "Corte + Barba",
+      "precio": "$550",
+      "descripcion": "Combo completo con nuestro ritual de navaja."
+    },
+    {
+      "nombre": "Color",
+      "precio": "$800",
+      "descripcion": "Coloración y disimulo de canas."
+    }
+  ]
+}

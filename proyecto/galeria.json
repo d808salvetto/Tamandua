@@ -1,0 +1,20 @@
+{
+  "imagenes": [
+    {
+      "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600&h=400&fit=crop",
+      "alt": "Corte fade moderno"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&h=400&fit=crop",
+      "alt": "Barba perfilada"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=600&h=400&fit=crop",
+      "alt": "Interior de barbería"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1593702295094-aea0b0d80c10?w=600&h=400&fit=crop",
+      "alt": "Detalle de corte"
+    }
+  ]
+}

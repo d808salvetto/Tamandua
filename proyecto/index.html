@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbería Tamandúa</title>
+    <meta
+      name="description"
+      content="Barbería Tamandúa - estilo y tradición desde 2010"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="bg-slate-950 text-slate-100">
+    <header
+      class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/90 backdrop-blur"
+    >
+      <div class="container flex items-center justify-between py-4">
+        <a
+          href="index.html"
+          class="text-lg font-semibold uppercase tracking-[0.3em] text-white"
+          data-config="empresa"
+          >Barbería Tamandúa</a
+        >
+        <nav
+          class="hidden items-center gap-6 text-sm font-medium text-slate-300 md:flex"
+        >
+          <a class="transition hover:text-white" href="index.html">Inicio</a>
+          <a class="transition hover:text-white" href="servicios.html"
+            >Servicios</a
+          >
+          <a class="transition hover:text-white" href="contacto.html"
+            >Contacto</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="hero relative flex min-h-screen items-center overflow-hidden"
+      >
+        <div
+          class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(255,255,255,0.14),_transparent_35%),linear-gradient(135deg,_rgba(15,23,42,0.95),_rgba(2,6,23,0.96))]"
+        ></div>
+        <div
+          class="container relative grid gap-8 py-24 lg:grid-cols-[1.2fr_0.8fr] lg:items-center"
+        >
+          <div class="max-w-2xl">
+            <p class="mb-4 text-sm uppercase tracking-[0.35em] text-slate-300">
+              Cortes de autor
+            </p>
+            <h1
+              class="font-display text-5xl leading-tight sm:text-6xl lg:text-7xl"
+            >
+              Barbería Tamandúa
+            </h1>
+            <p class="mt-6 text-lg text-slate-300" data-config="eslogan">
+              Estilo y tradición desde 2010
+            </p>
+            <p class="mt-4 max-w-xl text-base leading-7 text-slate-400">
+              Diseño clásico, precisión moderna y un trato que se siente como
+              una tradición de barrio con nivel premium.
+            </p>
+            <div class="mt-8 flex flex-wrap gap-4">
+              <a
+                href="https://wa.me/59899123456?text=Hola%20quiero%20reservar"
+                class="btn-primary inline-flex items-center rounded-full px-6 py-3 text-sm font-semibold text-white transition"
+                >Reservar por WhatsApp</a
+              >
+              <a
+                href="servicios.html"
+                class="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-slate-200 transition hover:border-white/40 hover:bg-white/10"
+                >Ver servicios</a
+              >
+            </div>
+          </div>
+          <div
+            class="rounded-3xl border border-white/10 bg-white/10 p-6 backdrop-blur"
+          >
+            <div class="mb-4 flex items-center justify-between">
+              <span class="text-sm uppercase tracking-[0.3em] text-slate-300"
+                >Agenda hoy</span
+              >
+              <span
+                class="rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-slate-100"
+                >Premium</span
+              >
+            </div>
+            <div class="space-y-3 text-sm text-slate-300">
+              <div
+                class="flex items-center justify-between rounded-2xl bg-slate-950/40 px-4 py-3"
+              >
+                <span>Teléfono</span>
+                <a
+                  href="tel:099123456"
+                  class="font-medium text-white"
+                  data-config="telefono"
+                  >099123456</a
+                >
+              </div>
+              <div
+                class="flex items-center justify-between rounded-2xl bg-slate-950/40 px-4 py-3"
+              >
+                <span>Dirección</span>
+                <span class="max-w-[12rem] text-right" data-config="direccion"
+                  >Av. 18 de Julio 1234, Montevideo, Uruguay</span
+                >
+              </div>
+              <div
+                class="flex items-center justify-between rounded-2xl bg-slate-950/40 px-4 py-3"
+              >
+                <span>Horarios</span>
+                <span class="max-w-[12rem] text-right" data-config="horarios"
+                  >Lun a Vie 9:00–20:00 · Sáb 9:00–14:00</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div
+          class="container grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center"
+        >
+          <div>
+            <p class="section-kicker">Sobre nosotros</p>
+            <h2 class="section-title">
+              Un ritual de corte con identidad propia.
+            </h2>
+            <p class="mt-4 text-lg leading-8 text-slate-400">
+              En Barbería Tamandúa combinamos tradición, detalle y una estética
+              moderna para crear cortes y barbas que se sienten impecables en
+              cada visita.
+            </p>
+            <p class="mt-4 text-lg leading-8 text-slate-400">
+              Nuestro equipo trabaja con una mirada cercana y personalizada,
+              cuidando cada línea, textura y proporción para que cada cliente
+              salga con una imagen distinta y auténtica.
+            </p>
+          </div>
+          <div
+            class="rounded-[2rem] border border-white/10 bg-slate-900/80 p-8 shadow-2xl"
+          >
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div
+                class="rounded-2xl border border-white/10 bg-slate-950/60 p-5"
+              >
+                <h3 class="text-xl font-semibold">Atención exclusiva</h3>
+                <p class="mt-2 text-sm leading-7 text-slate-400">
+                  Una experiencia cuidada, con conversación, precisión y tiempo
+                  para cada detalle.
+                </p>
+              </div>
+              <div
+                class="rounded-2xl border border-white/10 bg-slate-950/60 p-5"
+              >
+                <h3 class="text-xl font-semibold">Estilo premium</h3>
+                <p class="mt-2 text-sm leading-7 text-slate-400">
+                  Cortes y barbería con un look elegante y contemporáneo, sin
+                  perder la esencia clásica.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="mb-10 flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <p class="section-kicker">Servicios destacados</p>
+              <h2 class="section-title">
+                Lo que más eligen nuestros clientes.
+              </h2>
+            </div>
+            <a
+              href="servicios.html"
+              class="text-sm font-semibold text-slate-300 transition hover:text-white"
+              >Ver todos los servicios</a
+            >
+          </div>
+          <div
+            id="featured-services-list"
+            class="grid gap-6 md:grid-cols-3"
+          ></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="mb-10">
+            <p class="section-kicker">Galería</p>
+            <h2 class="section-title">
+              Detalles de estilo, barbería y ambiente.
+            </h2>
+          </div>
+          <div id="gallery-grid" class="grid gap-6 md:grid-cols-2"></div>
+        </div>
+      </section>
+
+      <section class="section pb-20">
+        <div
+          class="container rounded-[2rem] border border-white/10 bg-slate-900/80 p-8 shadow-2xl lg:p-12"
+        >
+          <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+            <div>
+              <p class="section-kicker">Horarios</p>
+              <h2 class="section-title">Tu turno en el mejor momento.</h2>
+              <p class="mt-4 text-lg leading-8 text-slate-400">
+                Nos adaptamos a tu rutina para que cuidar tu imagen sea rápido,
+                cómodo y sin complicaciones.
+              </p>
+            </div>
+            <div class="overflow-hidden rounded-2xl border border-white/10">
+              <table
+                class="min-w-full divide-y divide-white/10 text-left text-sm text-slate-300"
+              >
+                <thead class="bg-slate-950/70 text-slate-100">
+                  <tr>
+                    <th class="px-4 py-3 font-semibold">Día</th>
+                    <th class="px-4 py-3 font-semibold">Horario</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-white/10 bg-slate-900/80">
+                  <tr>
+                    <td class="px-4 py-3">Lunes a viernes</td>
+                    <td class="px-4 py-3">09:00–20:00</td>
+                  </tr>
+                  <tr>
+                    <td class="px-4 py-3">Sábado</td>
+                    <td class="px-4 py-3">09:00–14:00</td>
+                  </tr>
+                  <tr>
+                    <td class="px-4 py-3">Domingo</td>
+                    <td class="px-4 py-3">Cerrado</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/10 bg-slate-950/90">
+      <div
+        class="container flex flex-col gap-6 py-10 text-sm text-slate-400 md:flex-row md:items-center md:justify-between"
+      >
+        <div>
+          <p class="font-semibold text-white" data-config="empresa">
+            Barbería Tamandúa
+          </p>
+          <p class="mt-2" data-config="direccion">
+            Av. 18 de Julio 1234, Montevideo, Uruguay
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a
+            class="transition hover:text-white"
+            href="https://wa.me/59899123456?text=Hola%20quiero%20reservar"
+            >WhatsApp</a
+          >
+          <a
+            class="transition hover:text-white"
+            href="https://www.instagram.com/barberiatamandua"
+            >Instagram</a
+          >
+          <a
+            class="transition hover:text-white"
+            href="tel:099123456"
+            data-config="telefono"
+            >099123456</a
+          >
+        </div>
+        <p>
+          © 2026 <span data-config="empresa">Barbería Tamandúa</span>. Todos los
+          derechos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/galeria.js"></script>
+  </body>
+</html>

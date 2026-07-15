@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | Barbería Tamandúa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="bg-slate-950 text-slate-100">
+    <header
+      class="sticky top-0 z-50 border-b border-white/10 bg-slate-950/90 backdrop-blur"
+    >
+      <div class="container flex items-center justify-between py-4">
+        <a
+          href="index.html"
+          class="text-lg font-semibold uppercase tracking-[0.3em] text-white"
+          data-config="empresa"
+          >Barbería Tamandúa</a
+        >
+        <nav
+          class="hidden items-center gap-6 text-sm font-medium text-slate-300 md:flex"
+        >
+          <a class="transition hover:text-white" href="index.html">Inicio</a>
+          <a class="transition hover:text-white" href="servicios.html"
+            >Servicios</a
+          >
+          <a class="transition hover:text-white" href="contacto.html"
+            >Contacto</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container grid gap-10 lg:grid-cols-[1fr_1.1fr]">
+          <div>
+            <p class="section-kicker">Contacto</p>
+            <h1 class="section-title">Estamos a un mensaje de distancia.</h1>
+            <p class="mt-4 text-lg leading-8 text-slate-400">
+              Reservá tu turno, consultá por horarios o visitanos para vivir la
+              experiencia Tamandúa.
+            </p>
+            <div class="mt-8 grid gap-4">
+              <a
+                href="https://wa.me/59899123456?text=Hola%20quiero%20reservar"
+                class="contact-card rounded-2xl border border-white/10 bg-slate-900/80 p-5 transition hover:-translate-y-1"
+              >
+                <h3 class="text-lg font-semibold">WhatsApp</h3>
+                <p class="mt-2 text-sm text-slate-400">
+                  Escribinos directo para coordinar tu turno.
+                </p>
+              </a>
+              <a
+                href="https://www.instagram.com/barberiatamandua"
+                class="contact-card rounded-2xl border border-white/10 bg-slate-900/80 p-5 transition hover:-translate-y-1"
+              >
+                <h3 class="text-lg font-semibold">Instagram</h3>
+                <p class="mt-2 text-sm text-slate-400">
+                  Seguinos para ver novedades y estilos.
+                </p>
+              </a>
+              <div
+                class="contact-card rounded-2xl border border-white/10 bg-slate-900/80 p-5"
+              >
+                <h3 class="text-lg font-semibold">Dirección</h3>
+                <p class="mt-2 text-sm text-slate-400" data-config="direccion">
+                  Av. 18 de Julio 1234, Montevideo, Uruguay
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="rounded-[2rem] border border-white/10 bg-slate-900/80 p-6 shadow-2xl lg:p-8"
+          >
+            <div class="mb-6">
+              <p class="section-kicker">Horarios</p>
+              <p class="mt-2 text-sm text-slate-400" data-config="horarios">
+                Lun a Vie 9:00–20:00 · Sáb 9:00–14:00
+              </p>
+            </div>
+            <form class="space-y-4">
+              <div>
+                <label
+                  class="mb-2 block text-sm font-medium text-slate-300"
+                  for="nombre"
+                  >Nombre</label
+                >
+                <input
+                  id="nombre"
+                  type="text"
+                  class="w-full rounded-2xl border border-white/10 bg-slate-950/70 px-4 py-3 text-sm text-white outline-none"
+                  placeholder="Tu nombre"
+                />
+              </div>
+              <div>
+                <label
+                  class="mb-2 block text-sm font-medium text-slate-300"
+                  for="email"
+                  >Email</label
+                >
+                <input
+                  id="email"
+                  type="email"
+                  class="w-full rounded-2xl border border-white/10 bg-slate-950/70 px-4 py-3 text-sm text-white outline-none"
+                  placeholder="tu@email.com"
+                />
+              </div>
+              <div>
+                <label
+                  class="mb-2 block text-sm font-medium text-slate-300"
+                  for="mensaje"
+                  >Mensaje</label
+                >
+                <textarea
+                  id="mensaje"
+                  rows="4"
+                  class="w-full rounded-2xl border border-white/10 bg-slate-950/70 px-4 py-3 text-sm text-white outline-none"
+                  placeholder="Escribí tu consulta..."
+                ></textarea>
+              </div>
+              <button
+                type="button"
+                class="btn-primary rounded-full px-6 py-3 text-sm font-semibold text-white"
+              >
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <div class="container mt-12">
+          <div
+            class="overflow-hidden rounded-[2rem] border border-white/10 bg-slate-900/80 shadow-2xl"
+          >
+            <iframe
+              title="Mapa Barbería Tamandúa"
+              src="https://www.google.com/maps?q=Av.%2018%20de%20Julio%201234%20Montevideo%20Uruguay&output=embed"
+              class="h-[320px] w-full"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/10 bg-slate-950/90">
+      <div
+        class="container flex flex-col gap-6 py-10 text-sm text-slate-400 md:flex-row md:items-center md:justify-between"
+      >
+        <div>
+          <p class="font-semibold text-white" data-config="empresa">
+            Barbería Tamandúa
+          </p>
+          <p class="mt-2" data-config="direccion">
+            Av. 18 de Julio 1234, Montevideo, Uruguay
+          </p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a
+            class="transition hover:text-white"
+            href="https://wa.me/59899123456?text=Hola%20quiero%20reservar"
+            >WhatsApp</a
+          >
+          <a
+            class="transition hover:text-white"
+            href="https://www.instagram.com/barberiatamandua"
+            >Instagram</a
+          >
+          <a
+            class="transition hover:text-white"
+            href="tel:099123456"
+            data-config="telefono"
+            >099123456</a
+          >
+        </div>
+        <p>
+          © 2026 <span data-config="empresa">Barbería Tamandúa</span>. Todos los
+          derechos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
